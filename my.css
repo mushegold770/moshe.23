@@ -1,0 +1,22 @@
+body { 
+
+    background-image: url("https://imageproxy.wolt.com/assets/673208bed775830ca1efcb4a");
+    background-size: cover;
+
+}
+.container{ background-size: cover;
+}
+
+img {
+    margin-left: 210px; /* Adjust the value as needed */
+    width: 200px;
+    margin-top: 100px;
+    }
+
+.moshe2{
+    position: relative;  
+    left: 211px;  
+    margin-top: -4px;
+
+
+}

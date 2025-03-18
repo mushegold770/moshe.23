@@ -1,0 +1,39 @@
+body { 
+    background-image: url("https://imageproxy.wolt.com/assets/673208bed775830ca1efcb4a");
+    background-size: cover;
+}
+
+.container { 
+    background-size: cover;
+}
+
+img {
+    margin-left: 210px; /* Adjust the value as needed */
+    width: 200px;
+    margin-top: 100px;
+}
+
+/* Class for the element with the relative positioning */
+.moshe2 {
+    position: relative;  
+    left: 211px;  
+    margin-top: -4px;
+}
+
+/* Media query for smaller screens (phones) */
+@media (max-width: 768px) {
+    body {
+        background-size: contain; /* Or adjust this as needed */
+    }
+
+    img {
+        margin-left: 0; /* Center the image on mobile */
+        width: 150px; /* Reduce the image size for smaller screens */
+        margin-top: 50px; /* Adjust top margin for smaller screens */
+    }
+
+    .moshe2 {
+        left: 0; /* Adjust relative positioning */
+        margin-top: 0; /* Adjust for smaller screens */
+    }
+}
